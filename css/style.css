@@ -1,0 +1,65 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.main{
+width: 100%;
+height: 500px;
+ background-image: url("../assets/hero1.jpg");
+ background-size:cover ;
+ background-repeat: no-repeat;
+}
+.main nav ul {
+     float: right;
+     list-style: none;
+     
+}
+.main nav ul li {
+display: inline;
+padding: 10px;
+}
+.mainSection {
+     float: left;
+     margin-left: 50px;
+     width: 60%
+     
+}
+.wrapP{
+     margin: 15px 0;;
+}
+.mainSection p{
+    display: inline;
+    padding: 5px 0;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
